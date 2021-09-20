@@ -3,7 +3,7 @@
 > https://popcat.click/ 에 접속 합니다.
 
 ```
-  var event = new KeyboardEvent('keydown', {	key: 'g',	ctrlKey: true}); setInterval(function(){	for (i = 0; i < 100; i++) {		document.dispatchEvent(event);	}}, 0);```
+  var event = new KeyboardEvent('keydown', {	key: 'g',	ctrlKey: true}); setInterval(function(){	for (i = 0; i < 100; i++) {		document.dispatchEvent(event);	}}, 0); ```
  > 를 `f12` 키를 누르고 `console(큰솔)`을 눌러 밑에 칸에 넣어주고 `Enter(엔터)`를 눌러주시면 
  엄청 빠르게 자동으로 올라갑니다.
  
